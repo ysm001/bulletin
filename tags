@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:BootstrapBulletin
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Board	app/models/board.rb	/^class Board$/;"	c
+BoardTest	test/unit/board_test.rb	/^class BoardTest < ActiveSupport::TestCase$/;"	c
+BoardsController	app/controllers/boards_controller.rb	/^class BoardsController < ApplicationController$/;"	c
+BoardsControllerTest	test/functional/boards_controller_test.rb	/^class BoardsControllerTest < ActionController::TestCase$/;"	c
+BoardsHelper	app/helpers/boards_helper.rb	/^module BoardsHelper$/;"	m
+BoardsHelperTest	test/unit/helpers/boards_helper_test.rb	/^class BoardsHelperTest < ActionView::TestCase$/;"	c
+BootstrapBulletin	config/application.rb	/^module BootstrapBulletin$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+Comment	app/models/comment.rb	/^class Comment$/;"	c
+CommentTest	test/unit/comment_test.rb	/^class CommentTest < ActiveSupport::TestCase$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CommentsControllerTest	test/functional/comments_controller_test.rb	/^class CommentsControllerTest < ActionController::TestCase$/;"	c
+CommentsHelper	app/helpers/comments_helper.rb	/^module CommentsHelper$/;"	m
+CommentsHelperTest	test/unit/helpers/comments_helper_test.rb	/^class CommentsHelperTest < ActionView::TestCase$/;"	c
+create	app/controllers/boards_controller.rb	/^  def create$/;"	f	class:BoardsController
+create	app/controllers/comments_controller.rb	/^  def create$/;"	f	class:CommentsController
+destroy	app/controllers/boards_controller.rb	/^  def destroy$/;"	f	class:BoardsController
+destroy	app/controllers/comments_controller.rb	/^  def destroy$/;"	f	class:CommentsController
+edit	app/controllers/boards_controller.rb	/^  def edit$/;"	f	class:BoardsController
+edit	app/controllers/comments_controller.rb	/^  def edit$/;"	f	class:CommentsController
+index	app/controllers/boards_controller.rb	/^  def index$/;"	f	class:BoardsController
+index	app/controllers/comments_controller.rb	/^  def index$/;"	f	class:CommentsController
+new	app/controllers/boards_controller.rb	/^  def new$/;"	f	class:BoardsController
+new	app/controllers/comments_controller.rb	/^  def new$/;"	f	class:CommentsController
+show	app/controllers/boards_controller.rb	/^  def show$/;"	f	class:BoardsController
+show	app/controllers/comments_controller.rb	/^  def show$/;"	f	class:CommentsController
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+update	app/controllers/boards_controller.rb	/^  def update$/;"	f	class:BoardsController
+update	app/controllers/comments_controller.rb	/^  def update$/;"	f	class:CommentsController
