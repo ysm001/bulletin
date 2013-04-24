@@ -5,6 +5,25 @@
   <%= @board.title %>
 </p>
 
+<%= form_for([@board, @comment]) do |f| %>
+  <div class="field">
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<p>
+  <b>Comment</b>
+  <ul>
+    <% @comments.each do |comment| %>
+      <li><%= comment.content %></li>
+    <% end %>
+  </ul>
+</p>
 
 <%= link_to 'Edit', edit_board_path(@board) %> |
 <%= link_to 'Back', boards_path %>

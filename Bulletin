@@ -1,0 +1,445 @@
+
+Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
+ Bulletin
+ Gemfile
+ Gemfile.lock
+ README.rdoc
+ Rakefile
+ config.ru
+ app=app {
+  assets=assets {
+   images=images {
+    rails.png
+   }
+   javascripts=javascripts {
+    application.js
+    boards.js.coffee
+    bootstrap.js.coffee
+    comments.js.coffee
+   }
+   stylesheets=stylesheets {
+    application.css
+    boards.css.scss
+    bootstrap_and_overrides.css.less
+    comments.css.scss
+    scaffolds.css.scss
+   }
+  }
+  controllers=controllers {
+   application_controller.rb
+   boards_controller.rb
+   comments_controller.rb
+  }
+  helpers=helpers {
+   application_helper.rb
+   boards_helper.rb
+   comments_helper.rb
+  }
+  mailers=mailers {
+  }
+  models=models {
+   board.rb
+   comment.rb
+  }
+  views=views {
+   boards=boards {
+    _form.html.erb
+    edit.html.erb
+    index.html.erb
+    new.html.erb
+    show.html.erb
+   }
+   comments=comments {
+    _form.html.erb
+    edit.html.erb
+    index.html.erb
+    new.html.erb
+    show.html.erb
+   }
+   layouts=layouts {
+    application.html.erb
+   }
+  }
+ }
+ config=config {
+  application.rb
+  boot.rb
+  environment.rb
+  mongoid.yml
+  routes.rb
+  environments=environments {
+   development.rb
+   production.rb
+   test.rb
+  }
+  initializers=initializers {
+   backtrace_silencers.rb
+   inflections.rb
+   mime_types.rb
+   secret_token.rb
+   session_store.rb
+   wrap_parameters.rb
+  }
+  locales=locales {
+   en.bootstrap.yml
+   en.yml
+  }
+ }
+ db=db {
+  seeds.rb
+ }
+ doc=doc {
+  README_FOR_APP
+ }
+ lib=lib {
+  assets=assets {
+  }
+  tasks=tasks {
+  }
+ }
+ log=log {
+  development.log
+ }
+ public=public {
+  404.html
+  422.html
+  500.html
+  favicon.ico
+  robots.txt
+ }
+ script=script {
+  rails
+ }
+ test=test {
+  test_helper.rb
+  fixtures=fixtures {
+   boards.yml
+   comments.yml
+  }
+  functional=functional {
+   boards_controller_test.rb
+   comments_controller_test.rb
+  }
+  integration=integration {
+  }
+  performance=performance {
+   browsing_test.rb
+  }
+  unit=unit {
+   board_test.rb
+   comment_test.rb
+   helpers=helpers {
+    boards_helper_test.rb
+    comments_helper_test.rb
+   }
+  }
+ }
+ tmp=tmp {
+  cache=cache {
+   assets=assets {
+    C2E=C2E {
+     660=660 {
+      sprockets%2Ff2754102d870983a5bb730c974569485
+     }
+    }
+    C40=C40 {
+     310=310 {
+      sprockets%2F98f4021004d91a13687b5e1107f0d920
+     }
+    }
+    C41=C41 {
+     4B0=4B0 {
+      sprockets%2F8a34f7750310704a8d7c174a531404f2
+     }
+    }
+    C5F=C5F {
+     8F0=8F0 {
+      sprockets%2F4143f978072e2759b91ae594910e57c2
+     }
+    }
+    C78=C78 {
+     CC0=CC0 {
+      sprockets%2F48b7a6d43613f6ba0352331193eb6845
+     }
+    }
+    C91=C91 {
+     A20=A20 {
+      sprockets%2F53640067d96589fbc39f702a6e19b645
+     }
+    }
+    CA4=CA4 {
+     1D0=1D0 {
+      sprockets%2F0b10d0f37d3fd03322e26f70846457b8
+     }
+    }
+    CAB=CAB {
+     5E0=5E0 {
+      sprockets%2Fd6b2478cb944004e141fe7754b0092b8
+     }
+    }
+    CB0=CB0 {
+     D50=D50 {
+      sprockets%2Fff768642521fae570d9fa6d523840120
+     }
+    }
+    CD2=CD2 {
+     D10=D10 {
+      sprockets%2Fd9d8818e1e9657a0d185ca497684794e
+     }
+    }
+    CD7=CD7 {
+     6F0=6F0 {
+      sprockets%2Fbd3936370d0f952ada5774e2230046ed
+     }
+    }
+    CD8=CD8 {
+     370=370 {
+      sprockets%2F357970feca3ac29060c1e3861e2c0953
+     }
+    }
+    CEF=CEF {
+     830=830 {
+      sprockets%2Fd4384d69821a68e334e8ddb073de7456
+     }
+    }
+    CF0=CF0 {
+     DA0=DA0 {
+      sprockets%2Fd7d5b37686831d37c4dd75e645f5e016
+     }
+    }
+    CF4=CF4 {
+     140=140 {
+      sprockets%2F22a3157d204c1f8e417a25f01a2dbe45
+     }
+    }
+    D03=D03 {
+     BD0=BD0 {
+      sprockets%2Fcc96d4f5f41bc2990cc2b1a151027852
+     }
+    }
+    D04=D04 {
+     760=760 {
+      sprockets%2F4fb741d453bbb2555b7e58b4710510ee
+     }
+    }
+    D0C=D0C {
+     480=480 {
+      sprockets%2F67a7eade51331128488f5a5a2344be7c
+     }
+    }
+    D0E=D0E {
+     F80=F80 {
+      sprockets%2F8c2b061e379a23e7c4d207adcf992462
+     }
+    }
+    D0F=D0F {
+     3E0=3E0 {
+      sprockets%2F6654975eaa53a225d976278fcb6baa00
+     }
+     4B0=4B0 {
+      sprockets%2F165e74c773ea3f74201bb828b02fd95d
+     }
+    }
+    D17=D17 {
+     2B0=2B0 {
+      sprockets%2F0c6c563476f3c0a819d0d8ffd1684c29
+     }
+    }
+    D1A=D1A {
+     140=140 {
+      sprockets%2F2e2fe5b3e796d1d11577a448c8c89d12
+     }
+    }
+    D24=D24 {
+     C80=C80 {
+      sprockets%2F356f8ef56dd7be033fbd78c879774101
+     }
+    }
+    D25=D25 {
+     570=570 {
+      sprockets%2F58f2bf75d726b079b51fa37c969e80d6
+     }
+    }
+    D2D=D2D {
+     D50=D50 {
+      sprockets%2Fd585a06e2ee6203ccb04c8b84150d14d
+     }
+    }
+    D32=D32 {
+     A10=A10 {
+      sprockets%2F13fe41fee1fe35b49d145bcc06610705
+     }
+    }
+    D39=D39 {
+     F00=F00 {
+      sprockets%2F8657958652c145b13acbf2bab6812cae
+     }
+    }
+    D3F=D3F {
+     DC0=DC0 {
+      sprockets%2Fdc89378f8e453f012a741163a8dcebc0
+     }
+    }
+    D41=D41 {
+     E50=E50 {
+      sprockets%2Fedd7c92817a72e175d44080bc0eef842
+     }
+    }
+    D43=D43 {
+     BD0=BD0 {
+      sprockets%2Fef552c3c0a2927f5f3b6d6b5c526648c
+     }
+    }
+    D44=D44 {
+     970=970 {
+      sprockets%2F7f6555e1afb0ea372f81bf47b1592f46
+     }
+    }
+    D4C=D4C {
+     180=180 {
+      sprockets%2F33b1acea1331c0cea87117265049baca
+     }
+    }
+    D4E=D4E {
+     1B0=1B0 {
+      sprockets%2Ff7cbd26ba1d28d48de824f0e94586655
+     }
+    }
+    D51=D51 {
+     1C0=1C0 {
+      sprockets%2F04a3d5bfa30e72df12cfdb20007145e6
+     }
+    }
+    D57=D57 {
+     920=920 {
+      sprockets%2F4498b97b95c643fa7d67b81df8af505c
+     }
+    }
+    D5A=D5A {
+     EA0=EA0 {
+      sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6
+     }
+    }
+    D68=D68 {
+     CC0=CC0 {
+      sprockets%2Ff91eacdeb21e915a7c0492be3138e741
+     }
+    }
+    D69=D69 {
+     6A0=6A0 {
+      sprockets%2F335176dddcbcbe2cd953ac1763459c23
+     }
+    }
+    D93=D93 {
+     C50=C50 {
+      sprockets%2Feb955148dff1a927d71ba221df32d1ac
+     }
+    }
+    D99=D99 {
+     030=030 {
+      sprockets%2F77560c9c2b80474f7bcbcc2d2da2e54c
+     }
+    }
+    D9C=D9C {
+     400=400 {
+      sprockets%2Fe08a23faf5f4d3606ef2bf15fd427d71
+     }
+    }
+    D9E=D9E {
+     F30=F30 {
+      sprockets%2F5fb3119d195ebf3d8443fedb440bfd35
+     }
+    }
+    DB7=DB7 {
+     620=620 {
+      sprockets%2F25d0b305022bbafed50ba29ffb94e05f
+     }
+    }
+    DCF=DCF {
+     A40=A40 {
+      sprockets%2F55f8ee00ac6adda3a29e0fc98428b2d9
+     }
+    }
+    DDA=DDA {
+     9B0=9B0 {
+      sprockets%2Ffbbd8ac1d200347adb523a9a215fab1a
+     }
+    }
+    DDC=DDC {
+     400=400 {
+      sprockets%2Fcffd775d018f68ce5dba1ee0d951a994
+     }
+    }
+    DDD=DDD {
+     210=210 {
+      sprockets%2Fe8a50cdbe72c0126b1cad03ebe05ba72
+     }
+    }
+    DE9=DE9 {
+     A30=A30 {
+      sprockets%2Ff5dc54acbb80650011f1a7e2b0ef9eac
+     }
+    }
+    E04=E04 {
+     890=890 {
+      sprockets%2F2f5173deea6c795b8fdde723bb4b63af
+     }
+    }
+    E19=E19 {
+     2A0=2A0 {
+      sprockets%2F10fcfbe6ebae11a40c8eac41939a1b9a
+     }
+    }
+    E25=E25 {
+     4C0=4C0 {
+      sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6
+     }
+    }
+    E27=E27 {
+     5F0=5F0 {
+      sprockets%2Fd2dc02016bd53c4ba96e8b1f7ef9cdcc
+     }
+    }
+    E39=E39 {
+     D20=D20 {
+      sprockets%2Fac8132ddcbfbba8df8819e92fd77ae09
+     }
+    }
+    E56=E56 {
+     9F0=9F0 {
+      sprockets%2F6cae1b62dded7d1fd967f0b4cdcc810a
+     }
+    }
+    E89=E89 {
+     F80=F80 {
+      sprockets%2F9f4b2af9dd2be7cc5a8b79abb2f0edb0
+     }
+    }
+   }
+   sass=sass {
+    6a17f4646e802b86731b1fd548a3b9392d0faf91=6a17f4646e802b86731b1fd548a3b9392d0faf91 {
+     boards.css.scssc
+     comments.css.scssc
+     scaffolds.css.scssc
+    }
+   }
+  }
+  pids=pids {
+   server.pid
+  }
+  sessions=sessions {
+  }
+  sockets=sockets {
+  }
+ }
+ vendor=vendor {
+  assets=assets {
+   javascripts=javascripts {
+   }
+   stylesheets=stylesheets {
+   }
+  }
+  plugins=plugins {
+  }
+ }
+}

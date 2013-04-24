@@ -1,5 +1,7 @@
 BootstrapBulletin::Application.routes.draw do
-  resources :boards
+  resources :boards do
+    resources :comments
+  end
 
   root :to => 'boards#index'
 
