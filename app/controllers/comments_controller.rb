@@ -44,6 +44,12 @@ class CommentsController < ApplicationController
     @board = Board.find(params[:board_id])
     @comment = @board.comments.build(params[:comment])
 
+    if user_signed_in?
+      @comment.author_name = current_user.username
+    else
+      @comment.author_name = "Anonymous"
+    end
+
     respond_to do |format|
       if @comment.save
         format.html { redirect_to @board, notice: 'Comment was successfully created.' }

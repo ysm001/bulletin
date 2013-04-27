@@ -6,6 +6,7 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
  README.rdoc
  Rakefile
  config.ru
+ tags
  app=app {
   assets=assets {
    images=images {
@@ -40,6 +41,7 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
   models=models {
    board.rb
    comment.rb
+   user.rb
   }
   views=views {
    boards=boards {
@@ -59,6 +61,33 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
    layouts=layouts {
     application.html.erb
    }
+   devise=devise {
+    registrations=registrations {
+     edit.html.erb
+     new.html.erb
+    }
+    confirmations=confirmations{
+     new.html.erb
+    }
+    mailer=mailer{
+     confirmation_instructions.html.erb
+     reset_password_instructions.html.erb
+     unlock_instructions.html.erb
+    }
+    passwords=passwords{
+     edit.html.erb
+     new.html.erb
+    }
+    sessions=sessions{
+     new.html.erb
+    }
+    shared=shared{
+     _links.erb
+    }
+    unlocks=unlocks{
+     new.html.erb
+    }
+   }
   }
  }
  config=config {
@@ -74,6 +103,7 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
   }
   initializers=initializers {
    backtrace_silencers.rb
+   devise.rb
    inflections.rb
    mime_types.rb
    secret_token.rb
@@ -81,6 +111,7 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
    wrap_parameters.rb
   }
   locales=locales {
+   devise.en.yml
    en.bootstrap.yml
    en.yml
   }
@@ -115,6 +146,7 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
   fixtures=fixtures {
    boards.yml
    comments.yml
+   users.yml
   }
   functional=functional {
    boards_controller_test.rb
@@ -128,6 +160,7 @@ Bulletin=/Users/ryo/Programming/web/BootstrapBulletin CD=. {
   unit=unit {
    board_test.rb
    comment_test.rb
+   user_test.rb
    helpers=helpers {
     boards_helper_test.rb
     comments_helper_test.rb
